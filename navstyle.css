@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;  
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+.head {
+    background-image: url(lbg.avif);
+    padding: 20px 10px 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+.nav{
+    list-style: none;
+    
+}
+.nav li{
+    display: inline-block;
+    padding: 1% 5%;
+    font-size: 30px;
+    /*float:inline-end;*/
+    
+}
+
+.nav li a{
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    
+}
+
+
+.nav li a:hover{
+    color: blueviolet;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+.pr{
+    padding: 80px 30px 100px;
+    text-align: left;
+    color: black;
+}
+
+.name{
+    font-family: cursive;
+    font-size: 80px;
+    padding-left: 40px;
+    animation: colorful 6s infinite;
+}
+
+.welcome{
+    display: inline-block;
+    overflow: hidden;
+    font-family:monospace;
+    font-size: 40px;
+    padding-left: 40px;
+    animation: typing 4s steps(30,end)  1s  forwards ;
+    white-space: nowrap;
+    padding-bottom: 80px;
+}
+
+.intro{
+    background-image: url(lbg4.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 40px 80px;
+    
+
+}
+
+.intro h1{
+    font-family:cursive;
+    text-align: center;
+    color:#333333;
+    font-size: 70px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.intro p{
+    padding: 20px 30px 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:40px;
+    color: #000080;
+    overflow: hidden;
+}
+
+.intro img{
+    
+    width: 250px;
+    height: 250px;
+    border-radius: 50%; 
+    float: right;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+.intro img:hover{
+    transform: scale(1.1);
+}
+
+@keyframes colorful {
+    0% {
+      color: red;
+    }
+    25% {
+      color: blue;
+    }
+    50% {
+      color: green;
+    }
+    75% {
+      color:darkmagenta;
+    }
+    100% {
+      color: orange;
+    }
+  }
+
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+
+.foot h1{
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+    color:black ;
+}
+
+.con{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.con a{
+    display: inline-block;
+    font-size: 20px;
+    padding: 2% 5% 4%;
+    color: black;
+
+
+}
+
+.con a:hover{
+    color:rgb(31, 170, 68);
+}
+

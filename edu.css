@@ -1,0 +1,200 @@
+*{
+    box-sizing: border-box;  
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.head {
+    background-image: url(edu1.jpg);
+    padding: 20px 10px 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+
+    .nav{
+        list-style: none;
+        
+    }
+    .nav li{
+        display: inline-block;
+        padding: 1% 5%;
+        font-size: 30px;
+        
+        
+    } 
+}
+
+.nav li a{
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    
+}
+
+
+.nav li a:hover{
+    color: rgb(12, 159, 29);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.255);
+
+}
+
+.title{
+    padding: 20px 10px 30px;
+    text-align: center;
+}
+
+.title{
+    font-size: 100px;
+    font-family: cursive;
+    
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-align: left;
+    color: #333;
+    border: 1px solid #ddd;
+    
+  }
+  
+  th, td {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #e2e2e2;
+    cursor: pointer;
+  }
+
+.whole{
+    
+    text-align: center;
+
+}
+
+h2{
+    display: inline-block;
+    overflow: hidden;
+    font-size: 40px;
+    padding: 40px 20px 60px;
+    animation: typing 3s steps(30 , end) 1s  forwards;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.whole div{
+    height: 400px;
+    font-size: 20px;
+    color: #f2f2f2;
+}
+
+.whole p{
+    padding-right: 12%;
+    padding-left: 10%;
+    font-size: 24px;
+}
+
+
+.pri{
+    background-image: url(edu4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 80%;
+}
+
+.high{
+    background-image: url(lbg4.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 50%;
+}
+
+.imd{
+    background-image: url(edu5.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 90%;
+}
+
+
+.eng{
+    background-image: url(edu6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+
+
+
+
+
+
+
+
+.high{
+    padding: 60px 20px 80px;
+    
+
+}
+
+
+
+.high div{
+    font-size: 20px;
+    
+}
+
+
+
+
+.foot{
+    padding: 40px 30px 40px;
+    
+}
+
+.foot h1{
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+    color:black ;
+}
+
+.con{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.con a{
+    display: inline-block;
+    font-size: 20px;
+    padding: 2% 5%;
+    color: black;
+
+
+}
+
+.con a:hover{
+    color:rgb(31, 170, 68);
+}
